@@ -77,8 +77,6 @@ payum:
         BlogBundle\Entity\PaymentDetails: { doctrine: orm }
 
     gateways:
-        offline:
-            factory: offline
         paypal_payment_gateway:
             factory: paypal_express_checkout
             username:  'neeraj001_seller_api1.gmail.com'
