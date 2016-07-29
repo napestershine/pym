@@ -79,7 +79,7 @@ payum:
     gateways:
         paypal_payment_gateway:
             factory: paypal_express_checkout
-            username:  'neeraj001_seller_api1.gmail.com'
-            password:  '8Z9PHC8XPDFPAZAF'
-            signature: 'AFcWxV21C7fd0v3bYYYRCpSSRl31AFB.bay9eOh6h7ddNpk5.7uV5Zqq'
+            username:  'gfhj'
+            password:  'ghjb'
+            signature: 'ghjbngnb'
             sandbox: true
