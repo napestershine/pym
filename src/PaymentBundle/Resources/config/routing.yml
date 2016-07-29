@@ -1,3 +1,0 @@
-payment_homepage:
-    path:     /
-    defaults: { _controller: PaymentBundle:Default:index }
