@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new AppBundle\AppBundle(),
             new BlogBundle\BlogBundle(),
             new Payum\Bundle\PayumBundle\PayumBundle(),
+            new PaymentBundle\PaymentBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

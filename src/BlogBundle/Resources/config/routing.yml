@@ -1,3 +1,12 @@
+acme_payment_done:
+    path:     /done
+    defaults: { _controller: BlogBundle:Payment:done }
+
+prepare:
+    path:     /prepare
+    defaults: { _controller: BlogBundle:Payment:preparePaypalExpressCheckoutPayment }
+
+
 blog_homepage:
     path:     /
     defaults: { _controller: BlogBundle:Default:index }
