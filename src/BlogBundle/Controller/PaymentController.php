@@ -9,7 +9,7 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 
 class PaymentController extends Controller
 {
-    public function prepareAction()
+   /* public function prepareAction()
     {
         $gatewayName = 'offline';
 
@@ -62,7 +62,7 @@ class PaymentController extends Controller
                 'details' => $payment->getDetails(),
             ),
         ));
-    }
+    }*/
 
     public function preparePaypalExpressCheckoutPaymentAction()
     {

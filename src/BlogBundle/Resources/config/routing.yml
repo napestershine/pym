@@ -1,6 +1,6 @@
 acme_payment_done:
     path:     /done
-    defaults: { _controller: BlogBundle:Payment:done }
+    defaults: { _controller: BlogBundle:Payment:captureDone }
 
 prepare:
     path:     /prepare
